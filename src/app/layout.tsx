@@ -24,7 +24,7 @@ export default function RootLayout({
       <Head>
         <link rel="stylesheet" href={process.env.NEXT_PUBLIC_FONT_LINK} />
       </Head>
-      <body>
+      <body className="flex flex-col justify-center bg-orange-50 px-12 py-2 text-grey-700">
         <Navbar />
         <main>{children}</main>
         <Footer />
