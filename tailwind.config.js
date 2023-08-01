@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -13,6 +16,7 @@ module.exports = {
       primary: "#c65d21",
       secondary: "#7bb026",
       neutral: "#7e7e7e",
+
       orange: {
         50: "#ffefe6",
         100: "#ffd3ba",
@@ -84,6 +88,11 @@ module.exports = {
         700: "#a27c1a",
         800: "#7c5e10",
         900: "#513c06",
+      },
+    },
+    extend: {
+      fontFamily: {
+        sans: ["proxima-nova", "soleil", ...defaultTheme.fontFamily.sans],
       },
     },
   },
