@@ -16,7 +16,7 @@ const Navbar = () => {
     <div className="flex justify-between align-middle">
       <div className="flex flex-col justify-center align-middle">
         <Link href="/" className="font-bold">
-          Julianne's Portfolio
+          Julianne Adams
         </Link>
       </div>
       <div className="flex justify-center">

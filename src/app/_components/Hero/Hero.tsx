@@ -3,16 +3,16 @@ import SocialLinks from "@/app/_components/SocialLinks/SocialLinks";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col justify-center align-middle w-5/12">
+    <div className="flex flex-col justify-around w-full h-80">
       <Image
         src="/images/hero_image.jpg"
         width={300}
         height={300}
         alt="Julianne's personal headshot"
-        className="relative mx-auto rounded-full overflow-hidden w-36 h-36"
+        className="relative mx-auto rounded-full overflow-hidden w-[150px] h-[150px]"
       />
       <h1 className="text-center font-bold text-xl">Hi, I'm Julianne!</h1>
-      <p className="text-center">
+      <p className="text-center leading-relaxed">
         I'm a software developer based in Michigan. I specialize in building
         exceptional websites and applications.
       </p>
