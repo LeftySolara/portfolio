@@ -26,7 +26,7 @@ export default function RootLayout({
       </Head>
       <body className="flex flex-col justify-center bg-orange-50 px-12 py-2 text-grey-700">
         <Navbar />
-        <main>{children}</main>
+        <main className="flex flex-row justify-center w-full">{children}</main>
         <Footer />
       </body>
     </html>
