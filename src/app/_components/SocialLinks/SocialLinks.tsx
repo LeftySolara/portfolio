@@ -4,10 +4,19 @@ import {
   faLinkedin,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const SocialLinks = () => {
   return (
     <div className="flex flex-row justify-evenly basis-24">
+      <a
+        href="mailto:julianne@julianneadams.info"
+        aria-label="Email"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FontAwesomeIcon icon={faEnvelope} />
+      </a>
       <a
         href="https://github.com/LeftySolara"
         aria-label="GitHub"
