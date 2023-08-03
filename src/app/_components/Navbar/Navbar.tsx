@@ -13,7 +13,7 @@ const ResumeLink = () => {
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between align-middle">
+    <div className="hidden lg:flex justify-between align-middle">
       <div className="flex flex-col justify-center align-middle">
         <Link href="/" className="font-bold">
           Julianne Adams
