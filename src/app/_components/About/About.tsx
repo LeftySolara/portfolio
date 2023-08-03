@@ -1,7 +1,7 @@
 const About = () => {
   return (
-    <div className="flex flex-col justify-center self-center text-justify w-5/6">
-      <h2 className="font-bold self-center">About Me</h2>
+    <div className="flex flex-col justify-center self-center text-justify w-5/6 font-body">
+      <h2 className="font-bold font-heading self-center text-lg">About Me</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dapibus
         orci nulla, et sodales felis condimentum et. Nulla vehicula tortor eget

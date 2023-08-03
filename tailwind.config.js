@@ -92,7 +92,13 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ["proxima-nova", "soleil", ...defaultTheme.fontFamily.sans],
+        sans: [
+          "var(--font-inter)",
+          "var(--font-poppins)",
+          ...defaultTheme.fontFamily.sans,
+        ],
+        heading: ["var(--font-inter)"],
+        body: ["var(--font-poppins)"],
       },
     },
   },
