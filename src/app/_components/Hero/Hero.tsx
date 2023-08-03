@@ -12,7 +12,7 @@ const Hero = () => {
         className="relative mx-auto rounded-full overflow-hidden w-[150px] h-[150px]"
       />
       <h1 className="text-center font-bold text-xl">Hi, I'm Julianne!</h1>
-      <p className="text-center leading-relaxed">
+      <p className="text-justify leading-relaxed w-5/6 self-center">
         I'm a software developer based in Michigan. I specialize in building
         exceptional websites and applications.
       </p>

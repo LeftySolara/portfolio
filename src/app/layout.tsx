@@ -20,13 +20,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html>
+    <html className="no-scrollbar">
       <Head>
         <link rel="stylesheet" href={process.env.NEXT_PUBLIC_FONT_LINK} />
       </Head>
       <body className="flex flex-col justify-center bg-orange-50 text-grey-700 lg:w-[900px] m-auto p-3">
         <Navbar />
-        <main className="flex flex-row justify-center w-full">{children}</main>
+        <main className="flex flex-col justify-center w-full">{children}</main>
         <Footer />
       </body>
     </html>
