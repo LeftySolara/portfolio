@@ -21,7 +21,7 @@ const SkillCard = ({ name, icon }: { name: string; icon: IconDefinition }) => {
 const Skills = () => {
   return (
     <div className="flex flex-col justify-center mt-10 w-full">
-      <h2 className="font-bold font-heading self-center text-green-600 text-lg m-4">
+      <h2 className="font-bold font-heading self-center text-green-600 text-3xl m-4">
         Skills
       </h2>
       <div className="grid grid-rows-3 grid-cols-2 gap-y-5 justify-items-center w-full">
