@@ -25,7 +25,6 @@ export default function RootLayout({
       className={`${inter.variable} ${poppins.variable} no-scrollbar`}
     >
       <body className="flex flex-col justify-center bg-orange-50 text-grey-700 lg:w-[900px] m-auto p-3">
-        <Navbar />
         <main className="flex flex-col justify-center w-full">{children}</main>
         <Footer />
       </body>
