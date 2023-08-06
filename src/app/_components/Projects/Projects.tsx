@@ -50,7 +50,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
   return (
     <div
       key={project.id}
-      className="self-center border-2 rounded-md p-3 mt-4 h-36 w-full"
+      className="self-center border-2 rounded-md p-3 mt-4 h-36 w-full lg:w-5/6 lg:h-48"
     >
       <div className="flex flex-row justify-between">
         <FontAwesomeIcon icon={faFolderOpen} />
@@ -72,7 +72,7 @@ const Projects = () => {
       <h2 className="font-bold font-heading self-center text-green-600 text-3xl m-4">
         Projects
       </h2>
-      <div className="flex flex-col justify-evenly self-center">
+      <div className="flex flex-col lg:grid lg:grid-rows-2 lg:grid-cols-3 justify-evenly self-center">
         {projectData &&
           projectData.map((project) => <ProjectCard project={project} />)}
       </div>
