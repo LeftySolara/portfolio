@@ -3,7 +3,7 @@ import SocialLinks from "@/app/_components/SocialLinks/SocialLinks";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col justify-center w-full h-screen">
+    <div className="animate-in fade-in-0 slide-in-from-bottom-12 duration-1000 flex flex-col justify-center w-full h-screen">
       <Image
         src="/images/hero_image.jpg"
         width={300}
